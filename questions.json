@@ -1,0 +1,27 @@
+[
+  {
+    "text": "What does HTTP status code 404 mean?",
+    "answers": ["OK", "Not Found", "Unauthorized", "Server Error"],
+    "correct_answer": "Not Found"
+  },
+  {
+    "text": "In Python, what is the output of: print(type([])) ?",
+    "answers": ["<class 'list'>", "<class 'dict'>", "<class 'tuple'>", "<class 'set'>"],
+    "correct_answer": "<class 'list'>"
+  },
+  {
+    "text": "Which Git command creates a new branch and switches to it in one step?",
+    "answers": ["git branch new", "git checkout -b new", "git switch", "git merge new"],
+    "correct_answer": "git checkout -b new"
+  },
+  {
+    "text": "In SQL, which clause is used to filter rows BEFORE grouping happens?",
+    "answers": ["HAVING", "WHERE", "GROUP BY", "ORDER BY"],
+    "correct_answer": "WHERE"
+  },
+  {
+    "text": "What does Docker primarily package together?",
+    "answers": ["Only your code files", "Your code + its runtime/dependencies", "Only the operating system kernel", "Only your database data"],
+    "correct_answer": "Your code + its runtime/dependencies"
+  }
+]
