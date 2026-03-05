@@ -70,7 +70,8 @@ class TriviaGame:
             else:
                 print("Wrong!")
                 self.next_player()
-
+                self.current_question = self.get_new_question()
+                
         print("\nGame over!")
         for i, score in enumerate(self.scores, start=1):
             print(f"Player {i}: {score}")
